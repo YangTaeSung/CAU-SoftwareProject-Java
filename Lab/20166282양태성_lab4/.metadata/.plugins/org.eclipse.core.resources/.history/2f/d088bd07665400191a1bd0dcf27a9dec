@@ -1,0 +1,31 @@
+package lab04;
+import java.util.Scanner;
+
+public class DicApp {
+
+	public static void main(String[] args) {
+		
+		String hope;
+		String baby;
+		String stop;
+		
+		System.out.println("한영 단어 검색 프로그램입니다.");
+		Dictionary d = new Dictionary();
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		hope = scanner.next();
+		baby = scanner.next();
+		stop = scanner.next();
+		
+		System.out.println("한글 단어 >> " + hope);
+		System.out.println(hope + "은 " + d.kor2Eng(hope));
+	
+		System.out.println("한글 단어 >> " + baby);
+		System.out.println(baby + "는 " + d.kor2Eng(baby));
+		
+		System.out.println("한글 단어 >> " + stop);
+		System.out.println(stop + "은  " + d.kor2Eng(stop));
+	}
+
+}

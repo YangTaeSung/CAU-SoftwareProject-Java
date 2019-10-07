@@ -1,0 +1,23 @@
+package lab04;
+
+public class Dictionary {
+	
+	private static String [] kor = {"사랑", "아기", "돈", "미래", "희망"};
+	private static String [] eng = {"love","baby","money","future","hope"};
+	
+	public static String kor2Eng(String word) { 
+		if(word == kor[0])
+			return eng[0];
+		else if(word == kor[1])
+			return eng[1];
+		else if(word == kor[2])
+			return eng[2];
+		else if(word == kor[3])
+			return eng[4];
+		else if(word == kor[4])
+			return eng[4];
+		else
+			return "사전에 없는 단어입니다.";
+	}
+
+}
