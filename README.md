@@ -1,4 +1,4 @@
 # CAU-SoftwareProject-Java
 
 ## Outline
-Java Labs on Chung-ang university
+Java programming exercises I worked on in Chung-ang university
